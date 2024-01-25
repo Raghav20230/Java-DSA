@@ -1,1 +1,11 @@
+Java is high level,Object Oriented,roboust programming language,java is not 100% pure object oriented language because java have primitive data types like int,char,byte,short,long,double,boolean,float.these eight data types are not object oriented that's why java is not object oriented language so what is soluion in java has wrapper classes first we are know wrapper classes are used to wrap data .in wrapper classes all primitive data types convert into object orineted Byte,Short,Long,Double,Boolean,Char,Int,Float.
+Jdk + Development Tools=>jre=>jvm + Liberaries
+COMPILATION => Source Code(.java file) => jdk ke ander hota h COMPILER(jo ki compiler krne ke kaam main ata hain) + compiler isse Byte Code main converd kr deta h(.class file main) this is compilation work.
+EXCUTION=>After Byte code => JVM covert Byte code into Native code 
+Functions:A function is a block of code which takes some input, performs some operations and returns some output. 
+The functions stored inside classes are called methods.
+
+Class
+A class is a group of objects which have common properties. A class can have some properties and functions (called methods).
+The class we have used is Main.
 
