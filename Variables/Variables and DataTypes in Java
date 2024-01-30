@@ -15,3 +15,33 @@ public class Main {
        String friend = neighbour;
    }
 }
+VARIABLES:variables are three types 
+1.Local Variables
+2.Instance Variables
+3.Static Variables
+
+LOCAL variavles : Declarations:Local variables declare as inside methods,Blocks,Constructor
+Scope:inside methods ,Blocks,Construtor not outside
+stored memory:stack memory
+default values:does have any default values,value should be provided before use
+Access Specifier:Local variables not use any access specifiers.
+
+INSTANCE  variables:
+Declaration:inside Class but outside method and constructor or blocks.
+Scope:use inside class,methods,constructors and blocks but not inside directly use  static method
+when variables get memory allocated:when object is created once object is destroyed the variables are release.
+Stored memory:Heap memory
+Deffault values:They have deffault values like int like 0 boolean is false and  String is null
+Access Specifier:In instance variable access specifiers are used.
+How to access Instance variable:it can be called directly if simple instance variable if static instance variable then called as object,created first object then called as object.
+
+STATIC VARIABLES:
+Declaration: used as keyword Static in a class but outside of a method,constructor or blocks.
+scope:similar to instance variables inside as a methods,constructor or blocks including static .
+When variables Get allocated:when we run program and .class  file is loaded ,variables allocated. when .class file unloaded file get destroyed.
+Stored Memory:Non Heap memory or static memory 
+Deffault values: Static variables deffault values  int is zero and boolean value is false and string is null.
+Access Specifier:in static access modifiers is use.
+HOW TO ACCESS STATIC VALUES:1.Directly
+2.Using Class Name(A.1)
+3.By using Obeject Reference name 
